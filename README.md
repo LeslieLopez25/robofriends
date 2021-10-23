@@ -8,6 +8,6 @@
 
 - Live Site: [Robofriends]()
 
-### Screenshots
+### Screenshot
 
-<img src="src/screenshots/robofriends.png" width="400">
+<img src="src/screenshot/robofriends.png" width="400">
