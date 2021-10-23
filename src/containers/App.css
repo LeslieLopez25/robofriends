@@ -10,6 +10,6 @@
 h1 {
   font-family: 'SEGA LOGO FONT';
   font-weight: 200;
-  color: #8b0000;
-  -webkit-text-stroke: 1px #ffd700;
+  color: hsl(322.2, 80.9%, 43.1%);
+  -webkit-text-stroke: 1px hsl(233.4, 100%, 26.9%);
 }
