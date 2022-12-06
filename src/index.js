@@ -1,7 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
+import { Provider } from "react-redux";
+import { legacy_createStore as createStore } from "redux";
 import "./index.css";
 import App from "./containers/App";
 import "tachyons";
+import { searchRobots } from "./reducers";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+const store = createStore(searchRobots);
+
+const root = createRoot(document.getElementById("root"));
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
